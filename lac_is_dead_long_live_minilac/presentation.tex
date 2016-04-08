@@ -1,0 +1,51 @@
+\documentclass[9pt]{beamer}
+\let\Tiny=\tiny
+\usetheme{Berlin}
+\usecolortheme{seahorse}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{nameref}
+\usepackage{listings}
+\usepackage{ulem}
+\usepackage{lmodern}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{color}
+\usepackage{bbding}
+\usepackage[colorlinks,linkcolor=black,citecolor=cyan,urlcolor=cyan]{hyperref}
+\usepackage{hyperref}
+
+\title{LAC is dead! Long live miniLAC!}
+\institute{Linux Audio Conference 2016}
+\author{David `dave' Runge, Heiko `riot' Weinen}
+\date{10.04.2016}
+\graphicspath{{images//}}
+\usepackage[font=scriptsize]{caption}
+\begin{document}
+  \normalsize
+  \frame{\titlepage}
+  \include{content/whatislac}
+  \include{content/whatisminilac}
+  \include{content/whatcanbeimproved}
+  \nocite{*}
+  \section{}
+  \frame{\frametitle{Contact}
+    Questions, suggestions, blame?\\
+    \medskip
+    \scriptsize
+    \begin{tabular}{r l l}
+      \smallskip
+      &\textbf{David `dave' Runge} & \textbf{Heiko `riot' Weinen} \\
+      \smallskip
+      \smallskip
+      \textbf{Mail}:& \href{mailto:dave@sleepmap.de}{dave@sleepmap.de} & \href{mailto:riot@c-base.org}{riot@c-base.org} \\
+      \smallskip
+      \textbf{XMPP}:& dvzrv@sleepmap.de & riot@c-base.org \\
+      \smallskip
+      \textbf{IRC}:& dvzrv@\{efnet,freenode,oftc\} & riot@freenode\\
+    \end{tabular}
+  }
+\end{document}
